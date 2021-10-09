@@ -1,0 +1,97 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar.navbar-light.navbar-expand-md {
+  background: #252525;
+}
+
+#navcol-1 a {
+  color: #fff;
+  transition: 5s;
+}
+
+.fondo {
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  background: url(./fondo.jpg);
+  background-attachment: fixed;
+}
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  opacity: 1;
+  z-index: 2;
+}
+
+.about {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  padding: 10px;
+}
+
+.about span {
+  color: #363636;
+}
+
+.about .linea {
+  width: 150px;
+  height: 2px;
+  background: #373737;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.proyectos {
+  background: #fff;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-container {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.proyectos img {
+  width: 100%;
+}
+
+.descripcion {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.ir-arriba {
+  display: none;
+  padding: 20px;
+  border: 2px #000 solid;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000;
+}
+
